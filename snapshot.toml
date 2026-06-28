@@ -1,0 +1,6 @@
+title = "Build Demo"
+type  = "build"     # blessed custom build: Snapshot runs your build.sh and
+                    # publishes whatever it writes to the output dir (default dist/)
+
+[app]
+output = "dist"     # the folder build.sh produces (this is the default; shown for clarity)
